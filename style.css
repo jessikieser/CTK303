@@ -17,6 +17,21 @@ footer {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: skyblue;
+}
+
+a:hover {
+  text-decoration: none;
+  color: plum;
+}
+
+a:visited {
+  text-decoration: none;
+  color: aquamarine;
+}
+
 img {
   width: 100%;
   border-radius: 50px;
