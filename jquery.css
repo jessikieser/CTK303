@@ -1,0 +1,155 @@
+h1 {
+  color: saddlebrown;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 1px;
+  padding: 0;
+  margin-top: 10px;
+  color: saddlebrown;
+}
+
+h4 {
+  font-size: 24px;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: saddlebrown;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .25px;
+  line-height: 22px;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 75px;
+}
+
+header {
+  grid-column: span 12;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  grid-column: span 12;
+  color: saddlebrown;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+}
+
+nav li {
+  display: inline-block;
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: saddlebrown;
+  padding: 10px 10px 20px 10px;
+}
+
+nav li a:hover{
+  color: white;
+  background-color: saddlebrown;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+main {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+footer {
+  grid-column: span 12;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 14px;
+  color: saddlebrown;
+}
+
+#wrapper {
+  margin: auto;
+  display: grid;
+  width: 960px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 125px auto auto auto;
+}
+
+#specials {
+  grid-column: span 4;
+  background-color: tan;
+  margin: 25px;
+  padding: 25px;
+}
+
+#ourmission {
+  grid-column: span 8;
+  padding: 25px;
+}
+
+#imghome {
+  width: 100%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.box {
+  padding: 10px;
+}
+
+.boxmain {
+  padding: 10px;
+}
+
+.pheader {
+  font-size: 16px;
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: darkolivegreen;
+  letter-spacing: 2px;
+}
+
+.pheader:hover {
+  font-size: 16px;
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: saddlebrown;
+  letter-spacing: 2px;
+}

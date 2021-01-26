@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Busy Corner</title>
+  <link href="jquery.css" rel="stylesheet" type="text/css"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="wrapper"> <!--beginning wrapper-->
+
+  <header class="box"> <!--box 1-->
+    <h1>Busy Corner</h1>
+  </header> <!--end box 1-->
+
+  <nav class="box"> <!--box 2-->
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="orderonline.html">Order Online</a></li>
+      <li><a href="ourstory.html">Our Story</a></li>
+      <li><a href="hours.html">Hours & Contact</a></li>
+    </ul>
+  </nav> <!--end box 2-->
+
+  <main class="box"> <!--box 3-->
+
+    <div class="boxmain" id="specials"> <!--boxmain 1-->
+    <h3>Daily Specials</h3> <!--beginning daily specials paragraph-->
+        <span id="Monday" class="pheader">Monday</span><br>
+        <p class="peekaboo1">Chicken Wings <br>
+        12" Pizza</p>
+        <span id="Tuesday" class="pheader">Tuesday</span><br>
+        <p class="peekaboo2">Liver and Gizzards</p>
+        <span id="Wednesday" class="pheader">Wednesdays</span><br>
+        <p class="peekaboo3">Spaghetti <br>
+        Tortellini or Raviolli Family Deal</p>
+        <span id="Thursday" class="pheader">Thursdays</span><br>
+        <p class="peekaboo4">Fried Chicken</p>
+        <span id="Friday" class="pheader">Fridays</span><br>
+        <p class="peekaboo5">Whole Catfish <br>
+        Marinated Ribeye Steak <br>
+        BBQ Baby Back Ribs</p>
+        <span id="Saturday" class="pheader">Saturdays</span><br>
+        <p class="peekaboo6">Whole Catfish <br>
+        Marinated Ribeye Steak <br>
+        BBQ Baby Back Ribs</p>
+        <span id="Sunday" class="pheader">Sundays</span><br>
+        <p class="peekaboo7">Baked Chicken <br>
+        Prime Rib</p>
+    </div> <!--end boxmain 1-->
+
+    <div class="boxmain" id="ourmission"> <!--boxmain 2-->
+    <img id="imghome" src="busycorner.jpg" alt="Busy Corner"/>
+    <h3>Our Mission</h3>
+      <p>Busy Corner is a family restaurant where we are committed to creating a family atmosphere with quality and integrity served on every plate. Whether you are a local customer or just passing by, our customers turn into long time friends after one piece of our famous pie.</p>
+    </div> <!--end boxmain 2-->
+
+  </main> <!--end box 3-->
+
+  <footer class="box"> <!--box 4-->
+    <p>
+      Contact Us<br>
+      309-965-2361<br>
+      busycorner1@yahoo.com
+    </p>
+  </footer> <!--end box 4-->
+
+</div> <!--end wrapper-->
+
+<!-- Script at page bottom -->
+<script>
+  $( "#Monday" ).click(function() {
+    $( ".peekaboo1" ).fadeToggle( );
+  });
+
+  $( "#Tuesday" ).click(function() {
+    $( ".peekaboo2" ).fadeToggle( );
+  });
+
+  $( "#Wednesday" ).click(function() {
+    $( ".peekaboo3" ).fadeToggle( );
+  });
+
+  $( "#Thursday" ).click(function() {
+    $( ".peekaboo4" ).fadeToggle( );
+  });
+
+  $( "#Friday" ).click(function() {
+    $( ".peekaboo5" ).fadeToggle( );
+  });
+
+  $( "#Saturday" ).click(function() {
+    $( ".peekaboo6" ).fadeToggle( );
+  });
+
+  $( "#Sunday" ).click(function() {
+    $( ".peekaboo7" ).fadeToggle( );
+  });
+</script>
+
+<!--jQuery Notes
+
+$ is shorthand for "use jQuery". Use jQuery on ( ). #id says "use jQuery to find hashtag my id".
+It says when you click on this, do something. Use jQuery to find a class of peekaboo. Add the fadeToggle function. When you click on something
+with an id of ___, do the fadeToggle function on peekaboo. Is it there? yes. Fade it out. is it there? no. Fade it back in. JQuery does the work.
+
+Steps of jQuery:
+1. Need jQuery code in the <head>.
+2. Need html
+3. Add script to bottom of page, right before closing body tag.-->
+
+</body>
+
+</html>
