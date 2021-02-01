@@ -26,6 +26,13 @@ h4 {
   color: saddlebrown;
 }
 
+h6 {
+  font-size: 20px;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  color: saddlebrown;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -91,6 +98,7 @@ footer {
   grid-column: span 12;
   padding: 10px;
   text-align: center;
+  margin-top: 50px;
 }
 
 footer p {
@@ -128,6 +136,50 @@ footer p {
   border-bottom-right-radius: 50%;
 }
 
+#menuheadings {
+  grid-column: span 12;
+}
+
+.appsections {
+  background-color: snow;
+  color: saddlebrown;
+  padding: 15px 15px 0px 15px;
+  border: 1px solid saddlebrown;
+  transition: background-color 0.5s, color 1.0s;
+}
+
+.appsections:hover {
+  background-color: saddlebrown;
+  color: snow;
+}
+
+.menuitems {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.menudescription {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: .5px;
+}
+
+.menuprice {
+  color: snow;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10px;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
 .box {
   padding: 10px;
 }
@@ -152,4 +204,20 @@ footer p {
   text-transform: uppercase;
   color: saddlebrown;
   letter-spacing: 2px;
+}
+
+.appetizers {
+  display: grid;
+  grid-column: span 12;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.entrees {
+  display: grid;
+  grid-column: span 12;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.appsections {
+  grid-column: span 4;
 }
