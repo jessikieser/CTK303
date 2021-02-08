@@ -1,0 +1,111 @@
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70pt;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  text-align: center;
+  color: goldenrod;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 14pt;
+  font-weight: 300;
+  line-height: 2;
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+  color: fuchsia;
+}
+
+body {
+  background-color: peachpuff;
+}
+
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Merriweather', serif; */
+
+#wrapper {
+  margin: auto;
+  display: grid;
+  width: 960px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+#box {
+  grid-column: span 12;
+}
+
+#floweranimate {
+  width: 700px;
+  display: block;
+  margin: auto;
+  padding: 50px;
+}
+
+#middle {
+  animation: middlezoom 4.0s;
+  transform-origin: right top;
+}
+
+@keyframes middlezoom {
+  0%   { transform: scale(0.1);}
+  100% { transform: scale(1.0);}
+}
+
+#flower {
+  animation: flowerfade 2.0s;
+  transform-origin: center;
+  transition: all 1s;
+}
+
+#flower:hover {
+  opacity: .5;
+}
+
+@keyframes flowerfade {
+  0% { transform: rotate(360deg);}
+  100% {transform: rotate(0deg);}
+}
+
+#leaf1 {
+    animation: leaffade 3.0s;
+    transform-origin: top;
+    transition: all 2s;
+  }
+
+#leaf1:hover {
+    opacity: .25;
+}
+
+@keyframes leaffade {
+    0%   { transform: scale(0.1);}
+    100% { transform: scale(1.0);}
+  }
+
+
+#leaf2 {
+  animation: leaffade 2.5s;
+  transform-origin: bottom;
+  transition: all 1s;
+}
+
+#leaf2:hover{
+  opacity: .8;
+}
+
+#leaf3 {
+  animation: leaffade 3.5s;
+  transform-origin: left;
+  transition: all 1.5s;
+}
+
+#leaf3:hover {
+  opacity: .5;
+}
