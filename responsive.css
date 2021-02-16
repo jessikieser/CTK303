@@ -1,0 +1,127 @@
+header {
+  grid-column: span 3;
+  margin: auto;
+  padding: 50px 0px 50px 0px;
+}
+
+nav {
+  grid-column: span 3;
+  padding: 20px 0 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: .5em;
+  grid-row-gap: .5em;
+}
+
+nav li {
+  font-weight: 300;
+  font-size: 24px;
+  font-style: italic;
+  font-family: 'Newsreader', serif;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  background-color: #86A8E7;
+  grid-column: span 5;
+}
+
+nav li:hover {
+  background-image: linear-gradient(to right, #000059, #1a2075, #313f90, #485dab, #617dc5, #8d8ad0, #b298d8, #d3a8e0, #f7aece, #ffbbbb, #ffceb1, #ffe4b5);
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  transition: color .5s, text-decoration .5s;
+}
+
+nav li a:hover {
+  text-decoration-style: wavy;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  color: yellow;
+}
+
+main {
+  grid-column: span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+footer {
+  grid-column: span 3;
+  text-align: center;
+  padding: 50px;
+  background-color: #FFE4B5;
+  margin-top: 50px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+/*
+font-family: 'Ballet', cursive;
+font-family: 'Newsreader', serif;
+
+#000059, #86A8E7, #FFE4B5
+*/
+
+h1 {
+  color: #000059;
+  font-family: 'Ballet', cursive;
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: 'Newsreader', serif;
+  font-weight: 300;
+  font-style: italic;
+  padding: 0;
+  margin-bottom: -10px;
+  color: #000059;
+}
+
+p {
+  font-family: 'Newsreader', serif;
+  font-size: 16px;
+  letter-spacing: .25px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.column {
+  padding: 0px 20px 0px 20px;
+  grid-column: span 3;
+}
+
+#wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+}
+
+.restaurantimg {
+  grid-column: span 3;
+  display: inline-block;
+  margin: auto;
+}
+
+#restaurantimg {
+  width: 100%;
+  max-width: 960px;
+  margin-bottom: 50px;
+}
+
+@media all and (min-width: 50em) {
+  nav li {grid-column: span 1;}
+  .column {grid-column: span 1;}}
+}
