@@ -1,0 +1,57 @@
+nav {
+  background-color: navy;
+}
+
+nav a {
+  font-family:'Newsreader', serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: goldenrod;
+}
+
+nav a:hover {
+  color: salmon;
+}
+
+h1 {
+  font-family: 'Newsreader', serif;
+  font-size: 30px;
+  font-weight: 100;
+  color: salmon;
+}
+
+h2 {
+  font-family: 'Newsreader', serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: navy;
+}
+
+p {
+  font-family: 'Newsreader', serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: .5px;
+}
+
+footer {
+  color: salmon;
+}
+
+.card-header {
+  background-color: goldenrod;
+}
+
+.card {
+  border: none;
+  border-bottom: 1px solid salmon;
+}
+
+/*
+font-family: 'Ballet', cursive;
+font-family: 'Newsreader', serif;
+
+#000059, #86A8E7, #FFE4B5
+*/
