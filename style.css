@@ -1,5 +1,6 @@
 body {
-  background-color: #123456;
+  background-color: black;
+  color: white;
 }
 
 header {
@@ -13,6 +14,13 @@ header {
   padding-left: 10%;
 }
 
+p .song {
+  color: yellow;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
 footer {
   text-align: center;
 }
@@ -24,12 +32,12 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: plum;
+  color: white;
 }
 
 a:visited {
   text-decoration: none;
-  color: aquamarine;
+  color: white;
 }
 
 img {
@@ -44,8 +52,9 @@ img {
 p {
   color: ivory;
   font-family: 'Work Sans', sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 300;
+  line-height: 1.5;
 }
 
 h1 {
@@ -55,23 +64,23 @@ h1 {
   font-weight: normal;
 }
 
-h3 {
-  color: beige;
+h2 {
+  color: white;
   font-family: 'Work Sans', sans-serif;
   font-size: 22px;
   font-weight: 300;
 }
 
-h5 {
-  color:lavender;
+h3 {
+  color: white;
   font-family: 'Work Sans', sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: 4px;
 }
 
 h6 {
-  color: ghostwhite;
+  color: white;
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   font-weight: 300;
